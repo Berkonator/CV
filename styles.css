@@ -1,6 +1,63 @@
-h1{
-    color: blue;
+body{
+    margin: 0px;
 }
+
+
+header{
+    height: 280px;
+    background: linear-gradient(to right,  #ff882c, #ff6f00);
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.name{
+    position: relative;
+    top: 20px;
+    text-align: center;
+}
+
+.sociable{
+    position: relative;
+    top: 65px;
+    text-align: center;
+}
+
 h2{
-    color: green;
+    color: rgb(230, 230, 230);
+}
+h3{
+    color: rgb(200, 200, 200);
+}
+a{
+    padding: 5px;
+}
+
+.img-1{
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    box-shadow: 3px 3px 3px 3px #af4c00;
+}
+
+
+
+
+
+@media screen and (max-width: 500px){
+    header{
+        height: 280px;
+        background: linear-gradient(to right,  #ff882c, #ff6f00);
+        display: grid;
+    }
+    .name{
+        position: relative;
+        top: 40px;
+    }
+    
+    .sociable{
+        position: relative;
+        top: 0px;
+    }
 }
