@@ -45,6 +45,11 @@ h3{
     box-shadow: 3px 3px 3px 3px #af4c00;
 }
 
+.img-1:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}
+
 
 
 main{
@@ -94,6 +99,13 @@ main{
     color: #ff6f00;
 }
 
+.name-2:hover{
+    padding-left: 40px;
+    text-shadow: 3px 3px 4px #af4c00;
+    transform: scale(1.2);
+    transition: transform 0.2s;
+}
+
 table{
     margin-left: 5px;
     text-align: left;
@@ -116,6 +128,11 @@ th{
     width: 30px;
     height: 30px;
     border-radius: 20%;
+}
+
+.img-2:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s;
 }
 
 
