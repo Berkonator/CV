@@ -29,9 +29,10 @@ header{
 
 h2{
     color: rgb(230, 230, 230);
+    text-shadow: 0 0 5px rgb(230, 230, 230);
 }
 h3{
-    color: rgb(200, 200, 200);
+    color: rgb(230, 230, 230);
 }
 .a1{
     padding: 5px;
@@ -56,7 +57,6 @@ main{
     position: relative;
     background-color: #fff;
     padding: 0;
-    margin-bottom: 100px;
     display: flex;
     justify-content: space-between;
 }
@@ -119,10 +119,101 @@ th{
 }
 
 
+h1{
+    position: relative;
+    top: -100px;
+    margin: 30px 0;
+    color: #ff6f00;
+    text-align: center;
+}
+
+.skills{
+    position: relative;
+    top: -100px;
+    padding: 5px 5%;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.disc{
+    width: 62%;
+    padding: 30px 0;
+    position: relative;
+}
+
+.scale{
+    width: 60%;
+    margin-left: 2%;
+}
+
+.skill{
+    text-align: right;
+}
+
+.html{
+    color: rgb(230, 230, 230);
+    width: 89%;
+    background-color: #ff6f00;
+}
+
+.css{
+    color: rgb(230, 230, 230);
+    width: 62%;
+    background-color: #ff6f00;
+}
+
+.js{
+    color: rgb(230, 230, 230);
+    width: 27%;
+    background-color: #ff6f00;
+}
+
+.container{
+    width: 90%;
+    background-color: #b8b8b8;
+}
 
 
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 1000px){
+    main {
+        padding: 10%;
+    } 
+    .intro {
+        top: -185px;
+    }
+    h1{
+        top: -185px;
+    }
+    .skills{
+        top: -185px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 870px){
+    main {
+        padding: 7%;
+    }
+    .intro {
+        top: -160px;
+    }
+    h1{
+        top: -160px;
+    }
+    .skills{
+        top: -160px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 790px){
     header{
         height: 280px;
         background: linear-gradient(to right,  #ff882c, #ff6f00);
@@ -136,5 +227,48 @@ th{
     .sociable{
         position: relative;
         top: 0px;
+    }
+     main {
+        padding: 0px;
+    }
+    .intro {
+        top: 0px;
+        display: grid;
+        position: relative;
+        justify-content: center;
+        text-align: center;
+        background-color: #b8b8b8;
+    }
+    .avatar{
+        position: relative;
+        top: -50px;
+    }
+    .namebox{
+        background-color: #fff;
+        position: relative;
+        width: auto;
+        justify-content: center;
+        top: -50px;
+    }
+    h1{
+        top: 0;
+    }
+    .skills{
+        top: 0px;
+        display: grid;
+        position: relative;
+        justify-content: center;
+        text-align: center;
+        background-color: #b8b8b8;
+    }
+    .disc{
+        width: 348px;
+        background-color: #fff;
+        position: relative;
+        justify-content: center;
+    }
+    .scale{
+        width: 98%;
+        margin-left: 2%;
     }
 }
